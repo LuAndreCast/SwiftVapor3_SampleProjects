@@ -1,0 +1,24 @@
+<html>
+<body>
+<p>Name: #(name)</p>
+<p>City: #(city)</p>
+<p>Age: #(age)</p>
+
+#if(age > 20) {
+    <p>Legal age to drink!</p>
+} else {
+    <p>illegal age to drink!</p>
+}
+
+#if(age > 20) {
+    <b>Hobbies:</b>
+ 
+    <ul>
+    #for(currentHobbie in hobbies) {
+        <li>#capitalize(currentHobbie)</li>
+    }
+    </ul>
+}
+
+</body>
+</html>

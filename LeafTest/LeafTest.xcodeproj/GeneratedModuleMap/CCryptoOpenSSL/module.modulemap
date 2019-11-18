@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/luiscastillo/Library/Mobile Documents/com~apple~CloudDocs/Developer/Projects/SwiftVapor3_SampleProjects/LeafTest/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include"
+    export *
+}
